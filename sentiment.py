@@ -5,9 +5,9 @@ import numpy as np
 vectorizer = joblib.load("vectorizer.pkl")
 
 models = {
-    "Logistic Regression": joblib.load("logistic_regression.pkl"),
-    "Naive Bayes": joblib.load("naive_bayes.pkl"),
-    "Random Forest": joblib.load("random_forest.pkl")
+    "Logistic Regression": joblib.load("models/logistic_regression.pkl"),
+    "Naive Bayes": joblib.load("models/naive_bayes.pkl"),
+    "Random Forest": joblib.load("models/random_forest.pkl")
 }
 
 sentiment_map = {
